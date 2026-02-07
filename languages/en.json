@@ -17,6 +17,11 @@
         "name": "Configure User Blacklist",
         "hint": "Exclude specific users from auto opening journal.",
         "description": "Check the boxes next to users you want to exclude from auto opening journal."
+      },
+      "sharing-mode-options": {
+        "default": "Default",
+        "duplicate": "Duplicate",
+        "delete": "Delete"
       }
     },
     "share-with-players": "Share current page",
