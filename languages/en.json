@@ -3,6 +3,7 @@
     "base.validate": "Validate",
     "settings": {
       "gm-journal-name": "Handouts journal entry (world)",
+      "gm-journal-name-all": "All",
       "gm-journal-hint": "Journal entry holding all handouts to be shared with players. ⚠️ Don't share this journal entry with players.",
       "players-journal-name": "Players Journal entry (world)",
       "players-journal-hint": "Journal entry where players can view all handouts shared by the GM. ⚠️ Don't forget to share this journal entry with players.",

@@ -57,7 +57,7 @@ export function registerSettings() {
     type: new foundry.data.fields.StringField({
       blank: false,
       choices: () =>
-        foundry.utils.mergeObject({ all: game.i18n.localize("all") }, journalEntriesList())
+        foundry.utils.mergeObject({ all: game.i18n.localize("one-journal-handouts.settings.gm-journal-name-all") }, journalEntriesList())
     })
   });
 
