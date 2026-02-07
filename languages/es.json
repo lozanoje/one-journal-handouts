@@ -3,7 +3,6 @@
     "base.validate": "Validar",
     "settings": {
       "gm-journal-name": "Diario con las ayudas (world)",
-      "gm-journal-name-all": "Todos",
       "gm-journal-hint": "Es el diario que contiene todas las ayudas que quieres compartir con los jugadores. ⚠️ No debes compartir este diario con los jugadores.",
       "players-journal-name": "Diario de los jugadores (world)",
       "players-journal-hint": "Es el diario donde los jugadores podrán ver todas las ayudas que comparta el GM. ⚠️ No te olvides de compartir este diario con los jugadores.",
@@ -18,11 +17,6 @@
         "name": "Configurar lista negra",
         "hint": "Excluir usuarios de auto-abrir el diario.",
         "description": "Marca las casillas junto a los jugadores que no quieres que se les abra automáticamente el diario."
-      },
-      "sharing-mode-options": {
-        "default": "Por defecto",
-        "duplicate": "Duplicar",
-        "delete": "Eliminar"
       }
     },
     "share-with-players": "Compartir página (One journal)",

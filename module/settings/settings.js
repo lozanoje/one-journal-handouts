@@ -57,7 +57,7 @@ export function registerSettings() {
     type: new foundry.data.fields.StringField({
       blank: false,
       choices: () =>
-        foundry.utils.mergeObject({ all: game.i18n.localize("one-journal-handouts.settings.gm-journal-name-all") }, journalEntriesList())
+        foundry.utils.mergeObject({ all: game.i18n.localize("all") }, journalEntriesList())
     })
   });
 
@@ -84,9 +84,9 @@ export function registerSettings() {
     type: new foundry.data.fields.StringField({
       blank: false,
       choices: {
-        default: game.i18n.localize("one-journal-handouts.settings.sharing-mode-options.default"),
-        duplicate: game.i18n.localize("one-journal-handouts.settings.sharing-mode-options.duplicate"),
-        delete: game.i18n.localize("one-journal-handouts.settings.sharing-mode-options.delete")
+        default: game.i18n.localize("Default"),
+        duplicate: game.i18n.localize("Duplicate"),
+        delete: game.i18n.localize("Delete")
       }
     })
   });
